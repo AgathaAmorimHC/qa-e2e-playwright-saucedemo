@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="assets/banner.png" alt="Banner do Projeto" />
+</p>
 #  Automação E2E com Playwright - SauceDemo
 
 ##  Descrição
