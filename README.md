@@ -1,6 +1,5 @@
-![Banner](./20250526_1406_Banner%20GitHub%20Profissional_simple_compose_01jw6rxhzwtf79kre5d8trey6q.png)
 <p align="center">
-  <img src="./20250526_1406_Banner%20GitHub%20Profissional_simple_compose_01jw6rxhzwtf79kre5d8trey6q.png" alt="Banner GitHub">
+  <img src="./assets/banner.png" alt="Banner GitHub">
 </p>
 
 #  Projeto de Automação E2E com Playwright
