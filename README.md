@@ -1,70 +1,82 @@
-# 🐞 Projeto E2E de Automação - Sauce Demo
+<img src="./assets/banner.png" alt="Banner do projeto" style="width:100%;"/>
 
-![Banner](https://github.com/AgathaAmorimHC/qa-e2e-playwright-saucedemo/assets/banner.png)
+<h1 align="center"> Projeto de Automação de Testes E2E</h1>
+<h3 align="center">Playwright | Saucedemo | QA | Garantia da Qualidade | 🐞</h3>
+
+---
+
+<p align="center">
+  <a href="https://github.com/AgathaAmorimHC">
+    <img src="https://img.shields.io/badge/Author-Agatha%20Amorim-9cf?style=for-the-badge" />
+  </a>
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Testes-Automa%C3%A7%C3%A3o%20E2E-blueviolet?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Playwright-%23004D7F?style=for-the-badge&logo=playwright&logoColor=white"/>
+</p>
+
+---
 
 ## 🐞 Sobre o Projeto
-Automação de testes End-to-End utilizando **Playwright**. Este projeto valida fluxos da aplicação [Sauce Demo](https://www.saucedemo.com/), com foco na qualidade, estabilidade e eficiência dos testes.
+
+Este projeto foi desenvolvido com foco em **automação de testes End-to-End (E2E)** utilizando o **Playwright** na aplicação **SauceDemo**, com o objetivo de validar fluxos críticos e garantir a qualidade dos processos.
+
+🐞 Projeto idealizado para estudos, desenvolvimento de habilidades técnicas e como portfólio profissional para atuação na área de QA e Garantia da Qualidade.
 
 ---
 
-## 🐞 Tecnologias Utilizadas
-- Node.js
-- Playwright
-- JavaScript
-- VS Code
-- Git & GitHub
+## 🛠️ Tecnologias e Ferramentas
+
+- [Node.js](https://nodejs.org/)
+- [Playwright](https://playwright.dev/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- VSCode
+- Relatórios HTML de testes
 
 ---
 
-## 🐞 Habilidades Praticadas
-- Automação de Testes
-- QA Manual e Automação
-- Garantia da Qualidade
-- Page Object Model (POM)
-- Boas Práticas em Testes
-- Geração de Relatórios
-
----
-
-## 🐞 Estrutura do Projeto
+## 📂 Estrutura de Pastas
 
 ```
-📁 projeto-qa-automacao
+projeto-qa-automacao/
 │
-├── 📁 assets            → imagens e banners
-├── 📁 node_modules      → dependências
-├── 📁 tests             → testes automatizados
-├── 📁 test-results      → evidências de execução
-├── 📄 package.json      → configurações e scripts
-├── 📄 playwright.config → configuração do Playwright
-└── 📄 README.md         → documentação
+├── assets/            → imagens e banners
+├── tests/             → cenários de testes automatizados
+├── test-results/      → relatórios gerados pelos testes
+├── node_modules/      → dependências
+├── playwright.config.js → configuração do Playwright
+├── package.json       → dependências e scripts
+└── README.md          → documentação do projeto
 ```
 
 ---
 
-## 🔧 Como Executar Localmente
+## 🐞 Como Executar os Testes
 
-### ✔️ Pré-requisitos
-- [Node.js](https://nodejs.org/) instalado
-- [Git](https://git-scm.com/) instalado
-
-### 🛠️ Instalação
+### 🛠️ Clone o repositório:
 
 ```bash
-# Clone o repositório
 git clone https://github.com/AgathaAmorimHC/qa-e2e-playwright-saucedemo.git
+```
 
-# Acesse a pasta do projeto
+### 🛠️ Acesse a pasta do projeto:
+
+```bash
 cd qa-e2e-playwright-saucedemo
+```
 
-# Instale as dependências
+### 🛠️ Instale as dependências:
+
+```bash
 npm install
+```
 
-# Execute os testes
+### 🐞 Execute os testes:
+
+```bash
 npx playwright test
 ```
 
-### 📄 Gerar relatório HTML
+### 🐞 Gere e visualize o relatório dos testes:
 
 ```bash
 npx playwright show-report
@@ -72,24 +84,46 @@ npx playwright show-report
 
 ---
 
-## 🐞 Status do Projeto
-✅ Projeto em desenvolvimento contínuo com foco em evolução, implementação de CI/CD e aumento de cobertura.
+## 💡 Scripts disponíveis (atalhos):
+
+```json
+"scripts": {
+  "test": "npx playwright test",
+  "report": "npx playwright show-report"
+}
+```
+
+> 🐞 Assim, basta rodar:  
+`npm run test` ou `npm run report`
 
 ---
 
-## 🐞 Próximas Melhorias
-- [ ] Integração com GitHub Actions (CI/CD)
-- [ ] Testes cross-browser
-- [ ] Implementação de cenários negativos
-- [ ] Adição de testes mobile emulando dispositivos
+## 📈 Roadmap de Melhorias
+
+- [x] Estruturar README profissional
+- [x] Adicionar banner
+- [x] Documentação para execução
+- [ ] Implementar testes negativos
+- [ ] Adicionar testes de regressão
+- [ ] Implementar integração contínua (CI/CD)
+- [ ] Inserir badges dinâmicos de status
+- [ ] Melhorias na estrutura de Page Objects
 
 ---
 
-## 💌 Contato
+## 🌐 Conecte-se comigo
 
-[![GitHub](https://img.shields.io/badge/GitHub-AgathaAmorimHC-181717?style=for-the-badge&logo=github)](https://github.com/AgathaAmorimHC)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-AgathaAmorimHC-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/agathaamorimhc/)
+<p align="center">
+  <a href="https://github.com/AgathaAmorimHC">
+    <img src="https://img.shields.io/badge/GitHub-AgathaAmorimHC-black?style=for-the-badge&logo=github"/>
+  </a>
+  <a href="https://www.linkedin.com/in/agathaamorimhc">
+    <img src="https://img.shields.io/badge/LinkedIn-Agatha%20Amorim-blue?style=for-the-badge&logo=linkedin"/>
+  </a>
+</p>
 
 ---
 
-🖤🐞🤘🏼✨ **Automação de Testes | QA | Garantia da Qualidade | Crescendo na Tecnologia**
+## 🐞 Agatha Amorim  
+**Automação de Testes | QA | Garantia da Qualidade | Crescendo na Tecnologia**  
+🐞
