@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://github.com/AgathaAmorimHC">
-    <img src="https://img.shields.io/badge/Author-Agatha%20Amorim-9cf?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Autor-Agatha%20Amorim-9cf?style=for-the-badge" />
   </a>
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Testes-Automa%C3%A7%C3%A3o%20E2E-blueviolet?style=for-the-badge"/>
@@ -20,7 +20,7 @@
 
 Este projeto foi desenvolvido com foco em **automação de testes End-to-End (E2E)** utilizando o **Playwright** na aplicação **SauceDemo**, com o objetivo de validar fluxos críticos e garantir a qualidade dos processos.
 
-🐞 Projeto idealizado para estudos, desenvolvimento de habilidades técnicas e como portfólio profissional para atuação na área de QA e Garantia da Qualidade.
+ Projeto idealizado para estudos, desenvolvimento de habilidades técnicas e como portfólio profissional para atuação na área de QA e Garantia da Qualidade.
 
 ---
 
@@ -50,7 +50,7 @@ projeto-qa-automacao/
 
 ---
 
-## 🐞 Como Executar os Testes
+##  Como Executar os Testes
 
 ### 🛠️ Clone o repositório:
 
@@ -70,13 +70,13 @@ cd qa-e2e-playwright-saucedemo
 npm install
 ```
 
-### 🐞 Execute os testes:
+###  Execute os testes:
 
 ```bash
 npx playwright test
 ```
 
-### 🐞 Gere e visualize o relatório dos testes:
+###  Gere e visualize o relatório dos testes:
 
 ```bash
 npx playwright show-report
@@ -84,7 +84,7 @@ npx playwright show-report
 
 ---
 
-## 💡 Scripts disponíveis (atalhos):
+## 💡 Scripts disponíveis:
 
 ```json
 "scripts": {
@@ -98,7 +98,7 @@ npx playwright show-report
 
 ---
 
-## 📈 Roadmap de Melhorias
+## 📈 Roadmap de Melhorias:
 
 - [x] Estruturar README profissional
 - [x] Adicionar banner
@@ -117,7 +117,7 @@ npx playwright show-report
   <a href="https://github.com/AgathaAmorimHC">
     <img src="https://img.shields.io/badge/GitHub-AgathaAmorimHC-black?style=for-the-badge&logo=github"/>
   </a>
-  <a href="https://www.linkedin.com/in/agathaamorimhc">
+  <a href="https://www.linkedin.com/in/agathasiqueiradeamorim">
     <img src="https://img.shields.io/badge/LinkedIn-Agatha%20Amorim-blue?style=for-the-badge&logo=linkedin"/>
   </a>
 </p>
