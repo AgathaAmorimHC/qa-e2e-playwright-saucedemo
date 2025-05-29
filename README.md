@@ -1,88 +1,95 @@
-<p align="center">
-  <img src="assets/banner.png" alt="Banner do Projeto" />
-</p>
-#  Automação E2E com Playwright - SauceDemo
+# 🐞 Projeto E2E de Automação - Sauce Demo
 
-##  Descrição
-Este projeto contém testes automatizados de ponta a ponta (**E2E**) utilizando o framework **Playwright com JavaScript**.  
-Os testes simulam interações na aplicação [SauceDemo](https://www.saucedemo.com/), como login, adição de produtos no carrinho e fluxo de compra.
+![Banner](https://github.com/AgathaAmorimHC/qa-e2e-playwright-saucedemo/assets/banner.png)
+
+## 🐞 Sobre o Projeto
+Automação de testes End-to-End utilizando **Playwright**. Este projeto valida fluxos da aplicação [Sauce Demo](https://www.saucedemo.com/), com foco na qualidade, estabilidade e eficiência dos testes.
 
 ---
 
-##  Tecnologias utilizadas
+## 🐞 Tecnologias Utilizadas
 - Node.js
 - Playwright
 - JavaScript
+- VS Code
 - Git & GitHub
-- Visual Studio Code
 
 ---
 
-## 📂 Estrutura dos testes
+## 🐞 Habilidades Praticadas
+- Automação de Testes
+- QA Manual e Automação
+- Garantia da Qualidade
+- Page Object Model (POM)
+- Boas Práticas em Testes
+- Geração de Relatórios
+
+---
+
+## 🐞 Estrutura do Projeto
+
 ```
-tests/
-├── busca/
-│   └── adicionar-produto.spec.js
-├── carrinho/
-│   └── home.spec.js
-└── login/
-    ├── erro-intencional.spec.js
-    ├── login-invalido.spec.js
-    ├── login-positivo.spec.js
+📁 projeto-qa-automacao
+│
+├── 📁 assets            → imagens e banners
+├── 📁 node_modules      → dependências
+├── 📁 tests             → testes automatizados
+├── 📁 test-results      → evidências de execução
+├── 📄 package.json      → configurações e scripts
+├── 📄 playwright.config → configuração do Playwright
+└── 📄 README.md         → documentação
 ```
 
 ---
 
-##  Pré-requisitos
-- Node.js versão 18 ou superior
-- Git instalado
-- Navegador atualizado
-- Visual Studio Code ou outro editor de sua preferência
+## 🔧 Como Executar Localmente
 
----
+### ✔️ Pré-requisitos
+- [Node.js](https://nodejs.org/) instalado
+- [Git](https://git-scm.com/) instalado
 
-##  Instalação e execução
+### 🛠️ Instalação
 
-### 1️⃣ Clone este repositório:
 ```bash
+# Clone o repositório
 git clone https://github.com/AgathaAmorimHC/qa-e2e-playwright-saucedemo.git
-```
 
-### 2️⃣ Acesse a pasta do projeto:
-```bash
+# Acesse a pasta do projeto
 cd qa-e2e-playwright-saucedemo
-```
 
-### 3️⃣ Instale as dependências:
-```bash
+# Instale as dependências
 npm install
-```
 
-### 4️⃣ Execute todos os testes:
-```bash
+# Execute os testes
 npx playwright test
 ```
 
-### 5️⃣ Execute um teste específico:
-```bash
-npx playwright test tests/login/login-positivo.spec.js
-```
+### 📄 Gerar relatório HTML
 
-### 6️⃣ Gere e visualize o relatório:
 ```bash
 npx playwright show-report
 ```
 
 ---
 
-##  Melhorias futuras
-- [ ] Implementar relatórios avançados (Allure Report)
-- [ ] Adicionar execução cross-browser (Chrome, Firefox e Safari)
-- [ ] Configurar pipeline de integração contínua (GitHub Actions)
-- [ ] Ampliar cobertura de testes com cenários de erro e borda
-- [ ] Implementar testes de API para complementar os testes E2E
+## 🐞 Status do Projeto
+✅ Projeto em desenvolvimento contínuo com foco em evolução, implementação de CI/CD e aumento de cobertura.
 
 ---
 
-##  Licença
-Este projeto está sob a licença MIT.
+## 🐞 Próximas Melhorias
+- [ ] Integração com GitHub Actions (CI/CD)
+- [ ] Testes cross-browser
+- [ ] Implementação de cenários negativos
+- [ ] Adição de testes mobile emulando dispositivos
+
+---
+
+## 💌 Contato
+
+[![GitHub](https://img.shields.io/badge/GitHub-AgathaAmorimHC-181717?style=for-the-badge&logo=github)](https://github.com/AgathaAmorimHC)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-AgathaAmorimHC-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/agathaamorimhc/)
+
+---
+
+🖤🐞🤘🏼✨ **Automação de Testes | QA | Garantia da Qualidade | Crescendo na Tecnologia**
