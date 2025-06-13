@@ -6,22 +6,19 @@
 
 <p align="center">
   <a href="https://github.com/AgathaAmorimHC/qa-e2e-playwright-saucedemo">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/AgathaAmorimHC/qa-e2e-playwright-saucedemo" />
+    <img alt="Repo Size" src="https://img.shields.io/github/repo-size/AgathaAmorimHC/qa-e2e-playwright-saucedemo" />
   </a>
   <a href="https://github.com/AgathaAmorimHC/qa-e2e-playwright-saucedemo/issues">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/AgathaAmorimHC/qa-e2e-playwright-saucedemo" />
+    <img alt="Issues" src="https://img.shields.io/github/issues/AgathaAmorimHC/qa-e2e-playwright-saucedemo" />
   </a>
   <a href="https://github.com/AgathaAmorimHC/qa-e2e-playwright-saucedemo/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/github/license/AgathaAmorimHC/qa-e2e-playwright-saucedemo" />
   </a>
   <a href="https://www.linkedin.com/in/agathasiqueiradeamorim/" target="_blank">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" />
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Agatha%20Amorim-0077B5?style=flat&logo=linkedin" />
   </a>
   <a href="https://github.com/AgathaAmorimHC" target="_blank">
-    <img alt="GitHub followers" src="https://img.shields.io/github/followers/AgathaAmorimHC?style=social" />
-  </a>
-  <a href="https://www.codefactor.io/repository/github/agathaamorimhc/qa-e2e-playwright-saucedemo" target="_blank">
-    <img alt="Code Quality" src="https://www.codefactor.io/repository/github/agathaamorimhc/qa-e2e-playwright-saucedemo/badge" />
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-AgathaAmorimHC-black?style=flat&logo=github" />
   </a>
 </p>
 
@@ -29,49 +26,64 @@
 
 ## Sobre o Projeto
 
-Automação de testes End-to-End (E2E) utilizando **Playwright** em **JavaScript**, focada em validar os fluxos críticos da aplicação web **SauceDemo** — uma plataforma de e-commerce para prática de testes.
+Automação de testes End-to-End (E2E) utilizando **Playwright** com **JavaScript**, voltada à validação dos principais fluxos da aplicação **SauceDemo**, uma plataforma simulada de e-commerce. 
 
-Este projeto demonstra habilidades sólidas em automação para garantir a qualidade, estabilidade e performance dos principais processos do sistema, incluindo login, gerenciamento de carrinho, checkout e ordenação de produtos.
+O projeto simula situações reais do usuário desde login até finalização da compra, buscando antecipar falhas críticas com testes robustos, reutilizáveis e fáceis de manter.
 
----
-
-## Tecnologias e Ferramentas
-
-- Playwright
-- Node.js
-- JavaScript (ES6+)
-- Visual Studio Code
-- Git & GitHub
+> “Este projeto reforça minha capacidade de aplicar boas práticas em automação, com foco em confiabilidade, manutenção e empatia pelo comportamento real do usuário final.”
 
 ---
 
-## Objetivos dos Testes
+## Tecnologias & Ferramentas
 
-- Validar login com credenciais válidas e inválidas
-- Garantir funcionamento correto do logout
-- Testar adição e remoção de itens no carrinho
-- Validar fluxo completo de checkout
-- Verificar ordenação dos produtos na interface
-- Implementar testes negativos para validação robusta
+- **Linguagem:** JavaScript ES6+
+- **Framework:** Playwright
+- **Ambiente:** Node.js + VSCode
+- **Versionamento:** Git & GitHub
+- **Execução de testes:** CLI + UI Playwright
+- **Relatórios:** HTML gerado automaticamente
+- **Evidências:** Prints, vídeos e logs
+- **Pipelines (planejado):** GitHub Actions
+- **Relatórios avançados (planejado):** Allure
+
+---
+
+## O que foi testado
+
+- Login com dados válidos e inválidos
+- Logout funcional
+- Adição/remoção de produtos no carrinho
+- Finalização do pedido (checkout)
+- Ordenação de produtos
+- Testes negativos para validação robusta
+
+---
+
+## Decisões Técnicas
+
+- **Playwright** foi escolhido por sua velocidade, suporte nativo a múltiplos browsers e geração automática de evidências.
+- Os testes foram separados por fluxo para garantir rastreabilidade e leitura intuitiva.
+- A massa de dados (usuários) foi externalizada em arquivos JSON para facilitar manutenção.
+- Os testes seguem uma estrutura escalável com foco em manutenção futura.
 
 ---
 
 ## Estrutura do Projeto
 
 ```bash
-projeto-qa-automacao
-├── assets                 # Imagens e banners
-├── fixtures               # Massa de dados (usuários)
+qa-e2e-playwright-saucedemo
+├── assets                 # Imagens e GIFs de execução
+├── fixtures               # Massa de dados (usuários simulados)
 │   └── users.json
-├── tests                  # Casos de teste organizados por funcionalidade
-│   ├── busca
-│   ├── carrinho
-│   ├── checkout
+├── tests                  # Casos de teste organizados por fluxo
 │   ├── login
 │   ├── logout
-│   └── ordenacao
+│   ├── carrinho
+│   ├── checkout
+│   ├── ordenacao
+│   └── busca
+├── playwright.config.js   # Configurações globais do Playwright
 ├── package.json
-├── playwright.config.js
 └── README.md
 ```
 
@@ -81,10 +93,10 @@ projeto-qa-automacao
 
 ### Pré-requisitos
 
-- Node.js instalado (versão 16+ recomendada)
+- Node.js instalado (v16+)
 - Git instalado
 
-### Passos
+### Instalação
 
 ```bash
 git clone https://github.com/AgathaAmorimHC/qa-e2e-playwright-saucedemo.git
@@ -97,25 +109,25 @@ npx playwright install
 
 ## Como Executar os Testes
 
-Executar todos os testes:
+### Executar todos os testes
 
 ```bash
 npx playwright test
 ```
 
-Executar testes de uma pasta específica:
+### Executar testes por pasta
 
 ```bash
 npx playwright test tests/login
 ```
 
-Executar um arquivo específico:
+### Executar arquivo específico
 
 ```bash
 npx playwright test tests/checkout/checkout-completo.spec.js
 ```
 
-Executar testes com interface gráfica:
+### Usar interface interativa
 
 ```bash
 npx playwright test --ui
@@ -123,9 +135,7 @@ npx playwright test --ui
 
 ---
 
-## Relatórios de Teste
-
-Gerar e visualizar relatório HTML interativo:
+## Geração de Relatórios
 
 ```bash
 npx playwright show-report
@@ -135,7 +145,7 @@ npx playwright show-report
 
 ## Evidências da Automação
 
-### Execução Completa da Suíte
+### Execução Completa
 
 ![Execução Completa](./assets/background-testes.gif)
 
@@ -147,7 +157,7 @@ npx playwright show-report
 
 ---
 
-### Falha Intencional para Validação
+### Falha Intencional (Teste Negativo)
 
 ![Execução Falha](./assets/execucao-falha.gif)
 
@@ -155,33 +165,28 @@ npx playwright show-report
 
 ## Diferenciais Técnicos
 
-- Organização modular para escalabilidade e manutenção
-- Massa de dados externa via JSON para flexibilidade
-- Testes negativos estratégicos para robustez
-- Relatórios automáticos para transparência e análise
-- Preparação para integração com pipelines CI/CD
+- Arquitetura modular com foco em escalabilidade
+- Separação clara entre lógica de teste e massa de dados
+- Testes negativos planejados para garantir robustez
+- Relatórios automatizados para rastreabilidade
+- Preparado para CI/CD e relatórios avançados no futuro
 
 ---
 
 ## Próximos Passos
 
-- Implementar padrão Page Object Model (POM)
-- Adicionar testes responsivos (mobile/tablet/web)
-- Incluir testes de API para cobertura backend
-- Configurar CI/CD com GitHub Actions
-- Adotar relatórios avançados como Allure
-- Habilitar execução paralela em múltiplos navegadores
+- [ ] Refatoração completa para padrão Page Object Model (POM)
+- [ ] Testes responsivos (mobile/tablet)
+- [ ] Integração com API simulada
+- [ ] Configuração de pipeline com GitHub Actions
+- [ ] Implementação do Allure Reports
+- [ ] Execução paralela em múltiplos browsers
 
 ---
 
 ## Contato
 
-**Agatha Amorim**  🐞
+**Agatha Amorim**  
 [LinkedIn](https://www.linkedin.com/in/agathasiqueiradeamorim/) | [GitHub](https://github.com/AgathaAmorimHC)
 
----
-
-> Mais que testar, entrego qualidade.  
-> Cada automação reflete compromisso técnico e estratégico, assegurando processos seguros, escaláveis e eficientes.  
-> Qualidade não é requisito, é cultura.
-
+> "Mais que testar, entrego qualidade. Cada automação reflete compromisso técnico e estratégico, assegurando processos seguros, escaláveis e eficientes."

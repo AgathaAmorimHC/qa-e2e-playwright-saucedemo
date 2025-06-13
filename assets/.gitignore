@@ -1,0 +1,3 @@
+# Ignorar resultados de teste e relatórios gerados
+test-results/
+playwright-report/
